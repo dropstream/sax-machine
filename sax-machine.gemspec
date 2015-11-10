@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{sax-machine}
-  s.version = "0.0.17"
+  s.version = "0.0.18"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Paul Dix"]
@@ -14,6 +14,7 @@ Gem::Specification.new do |s|
     "lib/sax-machine/sax_config.rb",
     "lib/sax-machine/sax_collection_config.rb",
     "lib/sax-machine/sax_element_config.rb",
+    "lib/sax-machine/sax_element_value_config.rb",
     "lib/sax-machine/sax_document.rb",
     "lib/sax-machine/sax_handler.rb",
     "README.textile", "Rakefile",
