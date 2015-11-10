@@ -37,4 +37,6 @@ Gem::Specification.new do |s|
   else
     s.add_dependency(%q<nokogiri>, ["> 0.0.0"])
   end
+
+  s.add_development_dependency('geminabox', "~> 0.12.4")
 end
